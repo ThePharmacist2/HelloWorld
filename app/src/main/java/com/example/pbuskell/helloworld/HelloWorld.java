@@ -36,6 +36,8 @@ public class HelloWorld extends AppCompatActivity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
+    /* See if this commits up on Wednesday afternoon
+     */
     public void sayHello(View vw)
     {
         txtOutput.setText(R.string.strMessage);
