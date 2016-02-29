@@ -24,4 +24,16 @@
         android:id="@+id/txtOutput"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Second!"
+        android:id="@+id/btnLeave"
+        android:layout_below="@+id/txtOutput"
+        android:layout_alignRight="@+id/btnSayHello"
+        android:layout_alignEnd="@+id/btnSayHello"
+        android:clickable="false"
+        android:onClick="leave"
+        android:contextClickable="false" />
 </RelativeLayout>

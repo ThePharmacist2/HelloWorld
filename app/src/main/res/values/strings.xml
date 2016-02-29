@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Bonjour le monde</string>
-    <string name="strButtonCaption">Cliquez ici!</string>
-    <string name="strMessage">Au revoir</string>
+    <string name="app_name">HelloWorld</string>
+    <string name="strButtonCaption">Press Here!</string>
+    <string name="strMessage">BYE!</string>
+    <string name="strMessage2">WHY ARENT YOU LEAVING!!?</string>
 </resources>
