@@ -24,4 +24,14 @@
         android:id="@+id/txtOutput"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strOtherBtnCaption"
+        android:id="@+id/btnOtherOne"
+        android:layout_marginTop="75dp"
+        android:onClick="sayGoodbye"
+        android:layout_below="@+id/txtOutput"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

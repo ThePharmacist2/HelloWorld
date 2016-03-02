@@ -21,6 +21,7 @@ public class HelloWorld extends AppCompatActivity {
 
     Button btnSayHello;
     TextView txtOutput;
+    Button btnOtherOne;
 
 
     @Override
@@ -30,6 +31,7 @@ public class HelloWorld extends AppCompatActivity {
 
         btnSayHello = (Button)findViewById(R.id.btnSayHello);
         txtOutput = (TextView)findViewById(R.id.txtOutput);
+        btnOtherOne =(Button)findViewById(R.id.btnOtherOne);
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -40,6 +42,9 @@ public class HelloWorld extends AppCompatActivity {
     {
         txtOutput.setText(R.string.strMessage);
     }
+
+    public void sayGoodbye(View vw) {
+        txtOutput.setText(R.string.strNewMessage);}
 
     @Override
     public void onStart() {

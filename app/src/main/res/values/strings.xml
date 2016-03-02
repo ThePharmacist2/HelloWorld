@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">HelloWorld</string>
     <string name="strButtonCaption">Click Here!</string>
-    <string name="strMessage">Bonjour!</string>
+    <string name="strMessage">Hello!</string>
+    <string name="strOtherBtnCaption">No, Click Here!</string>
+    <string name="strNewMessage">Goodbye!</string>
 </resources>
